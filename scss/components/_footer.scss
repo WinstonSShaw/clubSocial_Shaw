@@ -1,0 +1,25 @@
+/*FOOTER*/
+
+footer {
+    background-image: linear-gradient(#adb5bd, #000);
+}
+
+.pFooter {
+    color: $color-menu;
+    text-align: center;
+}
+
+.a-link-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.aFooter {
+    color: $color-menu;
+    padding: 0% 5%;
+}
+
+.liFoot {
+    display: inline-block;
+    position: relative;
+}

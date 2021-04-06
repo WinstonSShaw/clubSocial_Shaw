@@ -1,0 +1,50 @@
+/*HEADER*/
+
+header {
+    margin-bottom: 94px;
+}
+
+.hbg-color {
+    background-image: linear-gradient(#000, #adb5bd);
+}
+
+.imgLogo {
+    width: 50px;
+    margin: 0px 10vw;
+}
+
+.menu {
+    color: $color-menu !important;
+    background-color:#825793;
+    border: solid 1px;
+    padding: 10px;
+    margin-right: 7vw;
+    border-radius: 3px;
+}
+
+.aMenu {
+    color: $color-menu;
+}
+
+
+ul {
+    list-style: none;
+    ul{
+        display: none;
+        position: absolute;
+
+        li {
+            display: block;
+        }
+    }
+    li {
+        display: inline-block;
+        position: relative;
+        font-size: $font-size-menu;
+        &:hover {
+            ul {
+                display: block;
+            }
+        }
+    }
+}

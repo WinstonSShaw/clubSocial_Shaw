@@ -1,0 +1,55 @@
+/*Futbol*/
+
+.h2-futbol {
+    text-align: center;
+}
+
+.imgFut {
+    height: 150px;
+    width: 150px;
+}
+
+.tarjeta {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: $color-pNews;
+    color: $color-menu;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 150px 300px 150px 150px 300px 150px;
+    grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+    @media only screen and (max-width: 1199px) {
+        grid-template-columns: 150px 90px 80px;
+        grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    }
+}
+
+.gridContainer2 {
+    display: grid;
+    grid-template-columns: 150px 300px 150px 150px 300px 150px;
+    grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+    @media only screen and (max-width: 1199px) {
+        grid-template-columns: 150px 90px 80px;
+        grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    }
+}
+
+.gridBoqueEncabezado {
+    @extend %futbol-grid-boque;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.gridBoque {
+    @extend %futbol-grid-boque;
+}
+
+

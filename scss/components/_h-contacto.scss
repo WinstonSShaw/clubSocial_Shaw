@@ -1,0 +1,46 @@
+/*CONTACTO*/
+
+.unite {
+    font-style: italic;
+    font-weight: bold;
+    font-size: $font-size-menu;
+}
+
+.formUnite {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form {
+    input[type="text"], input[type="email"] {
+        width: $form-width;
+        height: 25px;
+        border-radius: 3px;
+    }
+}
+
+textarea {
+    resize: none;
+    width: $form-width;
+}
+
+form {
+    select {
+        width: $form-width;
+    }
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+form {
+    div {
+        label, input[type="reset"] {
+            margin-right: 10px;
+        }
+    }
+}

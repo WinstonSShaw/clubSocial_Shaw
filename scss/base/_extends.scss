@@ -1,0 +1,16 @@
+//EXTEND
+
+%futbol-grid-boque {
+    border: 1px solid black;
+    text-align: center;
+    font-family: $font-family-newParagraph;
+    color: #343a40;
+}
+
+
+// MIXIN
+@mixin index-paragra-hover($border-pNews) {
+    border: $border-pNews;
+    transform: scale(1.2);
+    border-radius: 5px;
+}

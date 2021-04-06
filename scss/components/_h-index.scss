@@ -1,0 +1,32 @@
+/*Index*/
+
+.newParagraph {
+    color: $color-newParagraph;
+    font-family: $font-family-newParagraph;
+    text-align: justify;
+    &:hover {
+        @include index-paragra-hover(1px none darken($color-newParagraph, 20%));
+    }
+}
+
+.pNews {
+    color: $color-pNews;
+    text-align: justify;
+     &:hover {
+        @include index-paragra-hover(1px none darken($color-pNews, 20%));
+    }
+}
+
+.grid-container-posicion {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 50px 50px 50px;
+    justify-content: center;
+
+    @media only screen and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 100px 80px 80px;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+}

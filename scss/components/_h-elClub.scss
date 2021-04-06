@@ -1,0 +1,10 @@
+/*El Club*/
+
+.imgClub {
+    width: 30%;
+    transition: all 1s ease;
+
+    &:hover {
+        transform: scale(3) translate(150px);
+    }
+}

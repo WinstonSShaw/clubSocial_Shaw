@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gridBoque, .gridBoqueEncabezado {
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #343a40;
+}
+
+/*HEADER*/
+header {
+  margin-bottom: 94px;
+}
+
+.hbg-color {
+  background-image: linear-gradient(#000, #adb5bd);
+}
+
+.imgLogo {
+  width: 50px;
+  margin: 0px 10vw;
+}
+
+.menu {
+  color: #fff !important;
+  background-color: #825793;
+  border: solid 1px;
+  padding: 10px;
+  margin-right: 7vw;
+  border-radius: 3px;
+}
+
+.aMenu {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+ul ul {
+  display: none;
+  position: absolute;
+}
+ul ul li {
+  display: block;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+}
+ul li:hover ul {
+  display: block;
+}
+
+/*MAIN*/
+main {
+  background-color: #adb5bd;
+}
+
+h1 {
+  color: #3a0ca3;
+  font-size: xx-large;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+h1:hover {
+  text-decoration: underline;
+  color: rgba(58, 12, 163, 0.8);
+}
+
+h2 {
+  color: #3f37c9;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+h2:hover {
+  text-decoration: underline;
+  color: rgba(63, 55, 201, 0.8);
+}
+
+h3 {
+  color: #4361ee;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+h3:hover {
+  text-decoration: underline;
+  color: rgba(67, 97, 238, 0.8);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  color: #343a40;
+}
+
+/*Carousel*/
+.carousel-item {
+  object-fit: scale-down;
+}
+
+/*Index*/
+.newParagraph {
+  color: #3f37c9;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+.newParagraph:hover {
+  border: 1px none #262179;
+  transform: scale(1.2);
+  border-radius: 5px;
+}
+
+.pNews {
+  color: #343a40;
+  text-align: justify;
+}
+.pNews:hover {
+  border: 1px none #060708;
+  transform: scale(1.2);
+  border-radius: 5px;
+}
+
+.grid-container-posicion {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 50px 50px 50px;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .grid-container-posicion {
+    display: grid;
+    grid-template-columns: 100px 80px 80px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+  }
+}
+
+/*El Club*/
+.imgClub {
+  width: 30%;
+  transition: all 1s ease;
+}
+.imgClub:hover {
+  transform: scale(3) translate(150px);
+}
+
+/*Futbol*/
+.h2-futbol {
+  text-align: center;
+}
+
+.imgFut {
+  height: 150px;
+  width: 150px;
+}
+
+.tarjeta {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 1%;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 150px 300px 150px 150px 300px 150px;
+  grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+  justify-content: center;
+}
+@media only screen and (max-width: 1199px) {
+  .gridContainer {
+    grid-template-columns: 150px 90px 80px;
+    grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+  }
+}
+
+.gridContainer2 {
+  display: grid;
+  grid-template-columns: 150px 300px 150px 150px 300px 150px;
+  grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px;
+  justify-content: center;
+}
+@media only screen and (max-width: 1199px) {
+  .gridContainer2 {
+    grid-template-columns: 150px 90px 80px;
+    grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+  }
+}
+
+.gridBoqueEncabezado {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/*MULTIMEDIA*/
+.imgMultiMed {
+  width: 100%;
+}
+
+.grid-container-galeria {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.video-multimedia {
+  width: 30%;
+}
+
+/*CONTACTO*/
+.unite {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formUnite {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type=text], form input[type=email] {
+  width: 40%;
+  height: 25px;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: none;
+  width: 40%;
+}
+
+form select {
+  width: 40%;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+}
+
+form div label, form div input[type=reset] {
+  margin-right: 10px;
+}
+
+/*FOOTER*/
+footer {
+  background-image: linear-gradient(#adb5bd, #000);
+}
+
+.pFooter {
+  color: #fff;
+  text-align: center;
+}
+
+.a-link-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.aFooter {
+  color: #fff;
+  padding: 0% 5%;
+}
+
+.liFoot {
+  display: inline-block;
+  position: relative;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */
