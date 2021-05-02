@@ -4,6 +4,7 @@
     text-align: center;
 }
 
+
 .imgFut {
     height: 150px;
     width: 150px;
@@ -17,6 +18,8 @@
     color: $color-menu;
 }
 
+
+/*
 .gridContainer {
     display: grid;
     grid-template-columns: 150px 300px 150px 150px 300px 150px;
@@ -41,15 +44,9 @@
     }
 }
 
-.gridBoqueEncabezado {
-    @extend %futbol-grid-boque;
-    font-weight: bolder;
-    text-transform: uppercase;
+*/
 
-}
 
-.gridBoque {
-    @extend %futbol-grid-boque;
-}
+
 
 

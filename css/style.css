@@ -143,6 +143,11 @@ p {
   }
 }
 
+.gridBoqueEncabezado {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 /*El Club*/
 .imgClub {
   width: 30%;
@@ -170,37 +175,32 @@ p {
   color: #fff;
 }
 
+/*
 .gridContainer {
-  display: grid;
-  grid-template-columns: 150px 300px 150px 150px 300px 150px;
-  grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-  justify-content: center;
-}
-@media only screen and (max-width: 1199px) {
-  .gridContainer {
-    grid-template-columns: 150px 90px 80px;
-    grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-  }
+    display: grid;
+    grid-template-columns: 150px 300px 150px 150px 300px 150px;
+    grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+    @media only screen and (max-width: 1199px) {
+        grid-template-columns: 150px 90px 80px;
+        grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    }
 }
 
 .gridContainer2 {
-  display: grid;
-  grid-template-columns: 150px 300px 150px 150px 300px 150px;
-  grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px;
-  justify-content: center;
-}
-@media only screen and (max-width: 1199px) {
-  .gridContainer2 {
-    grid-template-columns: 150px 90px 80px;
-    grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-  }
+    display: grid;
+    grid-template-columns: 150px 300px 150px 150px 300px 150px;
+    grid-template-rows: 50px 150px 150px 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+    @media only screen and (max-width: 1199px) {
+        grid-template-columns: 150px 90px 80px;
+        grid-template-rows: 0px 50px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    }
 }
 
-.gridBoqueEncabezado {
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
+*/
 /*MULTIMEDIA*/
 .imgMultiMed {
   width: 100%;
