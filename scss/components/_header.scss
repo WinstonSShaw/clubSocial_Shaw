@@ -15,7 +15,7 @@ header {
 
 .menu {
     color: $color-menu !important;
-    background-color:#825793;
+//    background-color:#825793;
     border: solid 1px;
     padding: 10px;
     margin-right: 7vw;
@@ -24,6 +24,9 @@ header {
 
 .aMenu {
     color: $color-menu;
+    background-color: #adb5bd;
+    border: solid 1px;
+    border-radius: 3px;
 }
 
 
@@ -34,7 +37,13 @@ ul {
         position: absolute;
 
         li {
+            margin-top: 1vw;
             display: block;
+
+            @media only screen and (max-width: 991px) {
+                margin-left: 100px;
+                
+            }
         }
     }
     li {
